@@ -9,7 +9,7 @@ class Predict implements Command {
     public String name() {
         return "predict";
     }
-    public Boolean run(Scanner scanner) {
+    public boolean run(Scanner scanner) {
         System.out.println("Entrez le chemin du fichier :");
         String path = scanner.nextLine();
         var path1 = Paths.get(path);
