@@ -20,6 +20,7 @@ public class Launcher  {
         commands.add(new Freq());
         commands.add(new Fibo());
         commands.add(new Quit());
+        commands.add(new Predict());
         while (true) {
             String input = scanner.nextLine();
             boolean found = true;

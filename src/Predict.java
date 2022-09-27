@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-class Predict implements Command {
+public class Predict implements Command {
     public String name() {
         return "predict";
     }
